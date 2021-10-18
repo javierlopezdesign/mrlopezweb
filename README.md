@@ -1,3 +1,23 @@
+My First ReactJS Web!
+
+Dependencies added:
+
+## GSAP
+### `npm i gsap`
+
+## Iconify
+### `npm install --save-dev @iconify/react`
+
+## Sass
+### `npm install node-sass --save`
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
