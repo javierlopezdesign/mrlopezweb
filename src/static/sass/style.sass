@@ -1,0 +1,82 @@
+@import '_colors.sass'
+@import '_typography.sass'
+@import '_buttons.sass'
+@import '__animations.sass'
+
+
+
+
+*, *::after, *::before, html, body
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+header
+    background-color: $bgColor
+    padding: 0.5rem
+    width: 100%
+    min-height: 100vh
+    display: grid
+    place-items: center
+
+    .grettings__header
+        font-family: 'Shadows Into Light', cursive
+        // font-size: 1.5rem  
+        display: flex
+        align-items: center
+        justify-content: center
+        margin: 0 0 0.5rem 0
+        @media screen and ( min-width: 480px )
+            justify-content: flex-start
+
+    .grettings__header .hand
+        margin-right: 0.5rem
+        animation: waving 1.5s infinite
+        transform-origin: bottom center
+
+    .title__header
+        display: flex
+        flex-direction: column
+
+        @media screen and ( min-width: 480px )
+            flex-direction: row
+            gap: 2rem
+
+        .info__header
+            text-align: center
+            @media screen and ( min-width: 480px )
+                text-align: left
+
+            p
+                padding-top: 0.5rem
+
+        .logo__header
+            height: 80px
+            margin: 2rem auto
+            @media screen and ( min-width: 480px )
+                margin: auto
+                height: auto
+
+
+
+
+.contactInfo
+    position: fixed
+    bottom: 1rem
+    width: 100%
+    div
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        
+                    
+
+
+                
+
+
+
+
+
